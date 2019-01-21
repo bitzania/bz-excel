@@ -1,0 +1,27 @@
+{
+  "name": "bz-excel",
+  "version": "1.0.0",
+  "description": "export datatable as excel format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitzania/bz-excel.git"
+  },
+  "keywords": [
+    "excel4node",
+    "bitzania",
+    "nodejs"
+  ],
+  "author": "xoriuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitzania/bz-excel/issues"
+  },
+  "homepage": "https://github.com/bitzania/bz-excel#readme",
+  "dependencies": {
+    "excel4node": "^1.7.0"
+  }
+}
