@@ -12,5 +12,11 @@ var data = [
 ]
 
 console.log("WRITING EXCEL FILE : ", path.join(__dirname, "./xl.xlsx"));
-bz_excel.createExcel(data, ["field1", "field3", "field2", "field4"], path.join(__dirname, "./withField.xlsx"));
+bz_excel.createExcel(data, ["field1", "field3", "field2", "field4"], path.join(__dirname, "./withField.xlsx"))
+.then((data)=> {
+    console.log(data);
+})
+.catch((err)=> {
+    console.log(err);
+})
 bz_excel.createExcel(data, null, path.join(__dirname, "./default.xlsx"));
