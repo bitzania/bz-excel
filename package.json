@@ -1,6 +1,6 @@
 {
   "name": "bz-excel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "export datatable as excel format",
   "main": "index.js",
   "scripts": {
