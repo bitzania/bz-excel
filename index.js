@@ -39,7 +39,7 @@ module.exports = {
                     case "object":
                         if (Object.prototype.toString.call(value) === '[object Date]') {
                             type = "date";
-                            console.log("ISDATE");
+                            // console.log("ISDATE");
                         }
                         else {
                             type = "string";
